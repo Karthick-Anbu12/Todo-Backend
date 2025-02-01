@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema({
 const Users = mongoose.model("user datas", userSchema);
 const app = express()
 app.use(cors({
-  origin: 'https://todo-crud-full-stack.netlify.app/'
+  origin: 'https://todo-crud-full-stack.netlify.app'
 }))
 app.use(express.json())
 //jwt
